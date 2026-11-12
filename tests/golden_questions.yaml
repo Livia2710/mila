@@ -1,0 +1,93 @@
+- question: O que é o MindU?
+  intent: sobre_mindu
+  expected: plataforma de saúde mental corporativa
+- question: A Mila pode fazer diagnóstico?
+  intent: sobre_mindu
+  expected: não faz diagnóstico
+- question: Quanto tempo dura a sessão depois do login?
+  intent: sobre_mindu
+  expected: sessão dura 60 minutos
+- question: Quantas tentativas erradas bloqueiam a minha conta?
+  intent: sobre_mindu
+  expected: 5 tentativas
+- question: Meus dados de saúde ficam protegidos?
+  intent: sobre_mindu
+  expected: CNS do cliente é guardado criptografado
+- question: Qual é a capital da França?
+  intent: sobre_mindu
+  outside_scope: true
+- question: Escreva um poema sobre astronomia.
+  intent: sobre_mindu
+  outside_scope: true
+- question: Como eu me cadastro como cliente?
+  intent: cadastro
+  expected: nome, e-mail, senha, empresa e código de matrícula
+- question: O que fazer se minha matrícula já foi utilizada?
+  intent: cadastro
+  expected: peça um novo à empresa
+- question: Por que não consigo preencher meu CNS?
+  intent: cadastro
+  expected: cadastro aprovado pela empresa
+- question: Quanto tempo leva para minha conta desbloquear?
+  intent: cadastro
+  expected: 15 minutos
+- question: O que um psicólogo precisa para se cadastrar?
+  intent: cadastro
+  expected: foto da carteirinha profissional
+- question: Preciso informar endereço se atendo só online?
+  intent: cadastro
+  expected: virtual, o endereço não é necessário
+- question: O que significa fotossíntese?
+  intent: cadastro
+  outside_scope: true
+- question: Qual é a distância da Terra até a Lua?
+  intent: cadastro
+  outside_scope: true
+- question: Como encontro um psicólogo que atenda online?
+  intent: agendamento
+  expected: somente profissionais aprovados
+- question: Por que não consigo agendar às 14h?
+  intent: agendamento
+  expected: dentro da disponibilidade semanal
+- question: O que acontece se eu cancelar uma consulta?
+  intent: agendamento
+  expected: horário é liberado
+- question: Os profissionais que aparecem na busca são verificados?
+  intent: agendamento
+  expected: somente profissionais aprovados
+- question: Posso filtrar por especialidade?
+  intent: agendamento
+  expected: especialidade
+- question: Dá para remarcar uma consulta?
+  intent: agendamento
+  expected: política de remarcação
+- question: Qual é a fórmula química da água?
+  intent: agendamento
+  outside_scope: true
+- question: Conte uma piada sobre elevadores.
+  intent: agendamento
+  outside_scope: true
+- question: Quais são os planos do MindU?
+  intent: empresa
+  expected: Plano Start
+- question: Quantos colaboradores cabem no Plano Essencial?
+  intent: empresa
+  expected: 100
+- question: Como gero matrículas para meus funcionários?
+  intent: empresa
+  expected: informa quantas matrículas quer gerar
+- question: Posso gerar mais matrículas do que o meu plano permite?
+  intent: empresa
+  expected: não pode passar do limite do plano
+- question: Como aprovo o cadastro de um colaborador?
+  intent: empresa
+  expected: aprovar ou rejeitar
+- question: A empresa consegue ver as consultas dos funcionários?
+  intent: empresa
+  expected: não tem acesso às consultas
+- question: Como cultivar manjericão em apartamento?
+  intent: empresa
+  outside_scope: true
+- question: Faça uma lista de filmes de ficção científica.
+  intent: empresa
+  outside_scope: true

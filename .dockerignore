@@ -1,0 +1,10 @@
+.env
+.git/
+.vscode/
+dados/chroma/
+__pycache__/
+*.py[cod]
+tests/
+agentes/
+assets/
+README.md
