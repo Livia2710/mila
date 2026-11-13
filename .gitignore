@@ -10,4 +10,3 @@ dados/chroma/
 __pycache__/
 *.py[cod]
 .coverage
-.env.example
